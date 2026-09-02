@@ -5,7 +5,7 @@ export default function Home() {
     <main>
       <header className="site-header">
         <a className="brand" href="#start" aria-label="ENSA – das kreative Bauunternehmen, Startseite">
-          <img className="ensa-logo" src="/ensa-logo.png?v=2" alt="ENSA GmbH – Das kreative Bauunternehmen" />
+          <img className="ensa-logo" src="/ensa-logo.png?v=3" alt="ENSA GmbH – Das kreative Bauunternehmen" />
         </a>
         <a className="header-call" href="tel:+49495640770">04956 40770</a>
       </header>
