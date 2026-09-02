@@ -16,7 +16,10 @@ export default function Home() {
           <p className="intro">Seit 2004 steht die ENSA GmbH für zuverlässige Bau-, Umbau- und Instandsetzungsarbeiten in Ostfriesland und im Raum Oldenburg.</p>
           <div className="actions"><a className="button primary" href="tel:+49495640770"><span aria-hidden="true">☎</span> Jetzt anrufen</a><a className="button secondary" href="mailto:info@en-sa.de">E-Mail schreiben</a></div>
         </div>
-        <div className="hero-card" aria-label="Direkter Kontakt"><span className="card-number">20+</span><p>Jahre Erfahrung</p><div className="divider" /><p className="card-quote">„Sprechen Sie uns einfach an. Wir beraten Sie persönlich.“</p><span className="signature">Hermann Saathoff</span></div>
+        <figure className="hero-visual">
+          <img src="/bauprojekt.jpg" alt="Modernes Wohnhaus mit Klinkerfassade und Ziegeldach" />
+          <figcaption><strong>20+</strong><span>Jahre Erfahrung</span></figcaption>
+        </figure>
       </section>
       <section className="services" aria-labelledby="services-title">
         <div><p className="eyebrow">Was wir für Sie tun</p><h2 id="services-title">Ausgewählte Arbeiten rund ums Haus</h2></div>
